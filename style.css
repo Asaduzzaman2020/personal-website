@@ -4,6 +4,12 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    text-align: center;
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
 color: palevioletred;
 }
@@ -15,4 +21,59 @@ color: palevioletred;
 }
 .half-width img{
     width: 100%;
+}
+.top-bkimage{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    
+    
+}
+section{
+    height: 530px;
+    padding-bottom: 100px;
+    
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg ,goldenrod,tomato);
+    padding:8px 15px;
+    background-color: orange; 
+    color:white;
+    font-weight: bold;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-position: left;
+}
+.latest-work img{
+    float: left;
+    width: 26%;
+    padding: 2%;
+    margin-left: 40px;
+    height: 100%;
+
+   
+}
+.work-area{
+    background-image: url("images/latest-work-bg.png");
+    
+}
+.email-area{
+    width: 320px;
+    padding: 20px;
+    background-image: linear-gradient( 45deg ,goldenrod,tomato);
+    margin-left: 500px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.increase-size{
+    font-size: 20px;
+}
+.ceo-message{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
